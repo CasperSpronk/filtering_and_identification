@@ -7,3 +7,4 @@ clear all
 close all
 load("homework.mat");
 %%
+[aest, best] = myarx(y0, u0, 2)
